@@ -2,59 +2,53 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>TV Lm Vendas</title>
+  <title>LM Vendas - Streaming TV</title>
   <style>
-    body {
-      margin: 0;
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header {
-      background-color: #111;
-      width: 100%;
-      padding: 20px;
+    body { font-family: Arial, sans-serif; background: #111; color: white; }
+    h1 { text-align: center; margin-top: 20px; }
+    .canal {
+      display: inline-block;
+      width: 300px;
+      margin: 20px;
+      border: 2px solid white;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
       text-align: center;
+      background: #222;
     }
-
-    h1 {
-      margin: 0;
-    }
-
-    .video-container {
-      position: relative;
-      width: 90%;
-      max-width: 900px;
-      margin-top: 30px;
-      padding-bottom: 56.25%; /* 16:9 ratio */
-      height: 0;
-    }
-
-    .video-container iframe {
-      position: absolute;
+    .canal img {
       width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      border: none;
+      height: auto;
+      display: block;
+    }
+    .canal:hover {
+      border-color: #0f0;
+    }
+    .titulo-canal {
+      padding: 10px;
+      font-size: 18px;
+      background: #000;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>📺 TV Lm Vendas - Ao Vivo</h1>
-  </header>
+  <h1>Meus Canais</h1>
 
-  <div class="video-container">
-    <iframe 
-      src="https://www.youtube.com/embed/live_stream?channel=UC4R8DWoMoI7CAwX8_LjQHig&autoplay=1"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-    </iframe>
-  </div>
+  <a href="https://linkdo1canal.com/stream" target="_blank" class="canal">
+    <img src="canal1.jpg" alt="Canal 1" />
+    <div class="titulo-canal">Canal 1</div>
+  </a>
+
+  <a href="https://linkdo2canal.com/stream" target="_blank" class="canal">
+    <img src="canal2.jpg" alt="Canal 2" />
+    <div class="titulo-canal">Canal 2</div>
+  </a>
+
+  <a href="https://linkdo3canal.com/stream" target="_blank" class="canal">
+    <img src="canal3.jpg" alt="Canal 3" />
+    <div class="titulo-canal">Canal 3</div>
+  </a>
+
 </body>
 </html>
