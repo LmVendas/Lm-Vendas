@@ -2,12 +2,10 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>LmVendas Teste</title>
+  <title>Lm Vendas - Página Teste</title>
 </head>
 <body>
-  <h1>Meu site está no ar!</h1>
-  <p>Isso é um teste básico.</p>
+  <h1>Olá! Este é meu site de vendas.</h1>
+  <p>Teste para confirmar que a página está atualizada.</p>
 </body>
 </html>
-
-
