@@ -2,54 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>LM Vendas - Streaming TV</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #111; color: white; }
-    h1 { text-align: center; margin-top: 20px; }
-    .canal {
-      display: inline-block;
-      width: 300px;
-      margin: 20px;
-      border: 2px solid white;
-      border-radius: 10px;
-      overflow: hidden;
-      cursor: pointer;
-      text-align: center;
-      background: #222;
-    }
-    .canal img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .canal:hover {
-      border-color: #0f0;
-    }
-    .titulo-canal {
-      padding: 10px;
-      font-size: 18px;
-      background: #000;
-    }
-  </style>
+  <title>LmVendas Teste</title>
 </head>
 <body>
-  <h1>Meus Canais</h1>
-
-  <a href="https://linkdo1canal.com/stream" target="_blank" class="canal">
-    <img src="canal1.jpg" alt="Canal 1" />
-    <div class="titulo-canal">Canal 1</div>
-  </a>
-
-  <a href="https://linkdo2canal.com/stream" target="_blank" class="canal">
-    <img src="canal2.jpg" alt="Canal 2" />
-    <div class="titulo-canal">Canal 2</div>
-  </a>
-
-  <a href="https://linkdo3canal.com/stream" target="_blank" class="canal">
-    <img src="canal3.jpg" alt="Canal 3" />
-    <div class="titulo-canal">Canal 3</div>
-  </a>
-
+  <h1>Meu site está no ar!</h1>
+  <p>Isso é um teste básico.</p>
 </body>
 </html>
+
 
